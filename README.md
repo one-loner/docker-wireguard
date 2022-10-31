@@ -7,7 +7,8 @@ RU
 Для того, чтобы получить конфигурацию пира выполните get-peer-conf <номер пира>, если запускали скрипт install_docker.sh  
 Если не запускали, то ./get_peer_conf.sh <номер пира>   
 Все скрипты и команды выполнять от root.  
-  
+[Образ взят с Dockerhub](https://hub.docker.com/r/linuxserver/wireguard)  
+
 EN  
 VPN Wireguard with Docker  
 ./install_docker.sh - For installing Docker. Launch it, if you don't have Docker.  
@@ -16,3 +17,4 @@ Start as follows: ./run_wireguard.sh <External server ip> <number of peers (clie
 To get the configuration of the peer, launch get-peer-conf <peer number>, if you've launched linstall_docker.sh  
 If you don't launched, then launch ./get_peer_conf.sh <peer number>  
 All script and commands must be run from root.  
+[Used image from Dockerhub](https://hub.docker.com/r/linuxserver/wireguard)  
